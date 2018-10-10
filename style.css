@@ -1,12 +1,13 @@
-body {
+ body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
   background-color: white;
   font-size: 14px;
-  padding: 30px;
   text-align: center;
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-left: 150px;
 }
 
 h2 {
@@ -14,8 +15,29 @@ h2 {
   color: #7c4755;
 }
 
+.container {
+  max-width: 720px;
+  padding-left:20px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
 .name{
   font-family:
+}
+
+.navbar {
+  list-style-type: none;
+  position:fixed;
+  left: 0;
+  top: 0;
+  background-color: #CEBCBB ;
+  border-top: 100px;
+  width: 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .text-right{
@@ -39,6 +61,23 @@ h2 {
 }
 
 .list-horizontal a{
+  color: #9f7264;
+}
+
+.list-vertical{
+  list-style-type: none;
+  padding: 0px;
+
+}
+
+.list-vertical li{
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.list-vertical a{
   color: #9f7264;
 }
 
